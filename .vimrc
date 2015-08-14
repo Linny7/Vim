@@ -41,3 +41,7 @@ else
  	 	au VimLeave * silent execute "!gconftool-2 --type string --set /apps/gnome-terminal/profiles/Default/cursor_shape ibeam"
 	endif
 	endif
+
+" WHERE AM I
+set laststatus=2
+set statusline+=%F
