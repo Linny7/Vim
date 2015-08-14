@@ -44,4 +44,12 @@ else
 
 " WHERE AM I
 set laststatus=2
-set statusline+=%F
+
+" my fingers are lazy
+set wildmenu
+
+" code doesn't get castrated
+set nowrap
+
+" do you even scroll off, bro?
+set scrolloff=10
